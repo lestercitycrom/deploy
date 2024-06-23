@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Правило для проверки существования файла или директории
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Перенаправление всех запросов на api/index.php
+RewriteRule ^ api/index.php [QSA,L]

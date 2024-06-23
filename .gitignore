@@ -1,5 +1,10 @@
-"/vendor/" 
-".env" 
-"*.log" 
-"*.cache" 
-"*.tmp" 
+/vendor/
+/base0/api/vendor/
+/base1/api/vendor/
+/base2/api/vendor/
+/base3/api/vendor/
+/base4/api/vendor/
+/base5/api/vendor/
+composer.lock
+*.log
+.env
